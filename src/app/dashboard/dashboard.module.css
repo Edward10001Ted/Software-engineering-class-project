@@ -1,0 +1,346 @@
+.screen{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.menu{
+    width: 15%;
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: black;
+}
+
+.heading{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.span{
+    color: rgba(0, 0, 0, 0.785);
+}
+
+.menuBtn{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+    width: 65%;
+    height: 100vh;
+    padding-left: 20px;
+    color: black;
+    padding-right: 20px;
+    background: rgba(255, 254, 254, 0.927);
+}
+
+.dash{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.side{
+    width: 20%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    color: black;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.mainInput{
+    width: 40%;
+    height: 40px;
+    border: 1px solid rgb(242, 255, 254);
+    background: rgba(60, 60, 70, 0.4);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+
+}
+.mainInput::placeholder{
+    text-align: center;
+}
+
+.logout{
+    background: rgb(107, 55, 30);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    margin-bottom: 20px;
+}
+.logout:hover{
+    scale: 1.1;
+    transition: all 0.2s;
+}
+
+.information{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background:rgba(96, 92, 92, 0.904) ;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.h2{
+    margin-bottom: 30px;
+
+}
+
+
+.perImg{
+    max-height: 180px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.fees{
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+.goals{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.span{
+    color: rgb(117, 15, 15);
+}
+.feebtn{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    background: #acababe5;
+}
+.feebtnx{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    background: #cb4827e5;
+}
+
+.feebtn:hover{
+    scale: 1.1;
+    background: #fafafa;
+    transition: all 0.2s;
+}
+
+
+
+.spanf{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+    gap: 10px;
+    margin-top: 18px;
+    position: relative;
+}  
+
+.courseCardDD{
+    width: 100%;
+    height: 150px;
+    background: #f01933;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.courseCardDSA{
+    width: 100%;
+    height: 150px;
+    background: #8850e3;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.courseCardC{
+    width: 100%;
+    height: 150px;
+    background: #ee3131;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+.courseCardSE{
+    width: 100%;
+    height: 150px;
+    background: #c25009;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.subhead{
+    font-size: 15px;
+}
+
+.viewb{
+    border: none;
+    outline: none;
+    background: rgb(177, 164, 164);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 10%;
+}
+
+.viewb:hover{
+    scale: 1.1;
+    transition: all 0.3s;
+    background: rgb(253, 233, 233);
+}
+
+.viewa{
+    border: none;
+    outline: none;
+    background: rgb(177, 164, 164);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 35%;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 10%;
+}
+
+.viewa:hover{
+    scale: 1.1;
+    transition: all 0.3s;
+    background: rgb(253, 233, 233);
+}
+
+.viewc{
+    border: none;
+    outline: none;
+    background: rgb(177, 164, 164);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 35%;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 10%;
+}
+
+.viewc:hover{
+    scale: 1.1;
+    transition: all 0.3s;
+    background: rgb(253, 233, 233);
+}
+
+.viewd{
+    border: none;
+    outline: none;
+    background: rgb(177, 164, 164);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 10%;
+}
+
+.viewd:hover{
+    scale: 1.1;
+    transition: all 0.3s;
+    background: rgb(253, 233, 233);
+}
+.searc{
+    position: absolute; 
+    right: 720px; 
+
+}
+
+.reminders{
+    position: relative;
+    top: 300px;
+    left: 50px;
+
+}

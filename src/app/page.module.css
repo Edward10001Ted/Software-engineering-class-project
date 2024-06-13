@@ -1,0 +1,121 @@
+.screen{
+  padding: 10px;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 90%;
+  height: 90vh;
+  background: white;
+  color: black;
+  border-radius: 15px;
+  background: rgb(44, 38, 62);
+  display: flex;
+  flex-direction: row; /* Added this line to make the flex layout horizontal */
+}
+
+.codeImg {
+  max-width: 540px;
+  flex: 1; 
+  margin-right: 10px; 
+  background: rgba(194, 188, 188, 0.785);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.loginCard {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-radius: inherit;
+  padding: 10px;
+  /* justify-content: space-evenly;  */
+}
+
+.heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(183, 255, 244);
+
+}
+
+.inputBox{
+  margin-top: 50px;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 45%;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  color: rgb(255, 255, 255);
+  outline: solid 1px;
+  font-weight: bold;
+  background: transparent;
+}
+.input::placeholder{
+  color: rgba(255, 255, 255, 0.516);
+}
+.btn{
+  /* background: white; */
+  width: 100%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.logbtn{
+  width: 80%;
+  height: 40%;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgba(6, 0, 29, 0.785);
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.regbtn{
+  width: 80%;
+  height: 40%;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgba(13, 1, 70, 0.785);
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logbtn:hover,.regbtn:hover{
+  scale: 1.05;
+  transition: all 0.1s;
+}
+
